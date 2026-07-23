@@ -43,7 +43,7 @@ api_key = st.sidebar.text_input("Enter Gemini API Key:", type="password")
 
 model_choice = st.sidebar.selectbox(
     "Select AI Model:",
-    ["gemini-1.5-flash", "gemini-1.5-pro", "gemini-3.1-pro-extended"]
+    ["gemini-1.5-flash", "gemini-1.5-pro", "gemini-2.0-flash"]
 )
 
 platform = st.sidebar.radio(
